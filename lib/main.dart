@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => PasswordProvider(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Password Manager',
         theme: ThemeData(
           primarySwatch: Colors.blue,
